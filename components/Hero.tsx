@@ -15,8 +15,8 @@ const Hero = () => {
 
   return (
     <div className="hero">
-      <div className="flex-1 pt-24 padding-x">
-        <h1 className="hero__title">
+      <div className="flex-1 flex flex-col pt-24 padding-x justify-center ">
+        <h1 className="hero__title leading-snug">
           Find, book, rent a car-quick and super easy!
         </h1>
 
@@ -27,7 +27,7 @@ const Hero = () => {
 
         <CustomButton
           title="Explore Cars"
-          containerStyles="bg-primary-blue text-white rounded-full mt-10"
+          containerStyles="bg-primary-blue text-white rounded-full mt-10 max-w-max"
           handleClick={handleScroll}
         />
       </div>
